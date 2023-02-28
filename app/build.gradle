@@ -7,11 +7,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.spotify_clone"
-        minSdk 22
+        minSdk 25
         targetSdk 33
         versionCode 1
         versionName "1.0"
-
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,7 +28,6 @@ android {
 }
 
 dependencies {
-
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'

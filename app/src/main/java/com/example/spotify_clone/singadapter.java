@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class songAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class singadapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     Context context;
     List<song> songs;
-    public songAdapter(Context context, List<song> songs) {
+    public singadapter(Context context, List<song> songs) {
         this.context = context;
         this.songs = songs;
     }
