@@ -149,5 +149,7 @@ public class MainActivity extends AppCompatActivity {
 
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
+
+        song song;
     }
 }
